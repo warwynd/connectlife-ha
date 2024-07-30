@@ -1,0 +1,131 @@
+# Hood
+properties:
+- property: ActiveModeLightBrightness
+  hide: true
+  # Sample value: 0
+- property: ActiveModeLightColorTemperature
+  hide: true
+  # Sample value: 0
+- property: ActiveModeLightStatus
+  hide: true
+  # Sample value: 2
+- property: ActiveModeMotorLevel
+  hide: true
+  # Sample value: 1
+- property: ActiveModeMotorLevelStatus
+  hide: true
+  # Sample value: 2
+- property: ActiveModeStatus
+  hide: true
+  # Sample value: 2
+- property: AlarmCleanAirEnded
+  hide: true
+  # Sample value: 1
+- property: AlarmGreaseFilter
+  hide: true
+  # Sample value: 2
+- property: AlarmRecirculationFilter1
+  hide: true
+  # Sample value: 1
+- property: AlarmRecirculationFilter2
+  hide: true
+  # Sample value: 1
+- property: AlarmTimerEnded
+  hide: true
+  # Sample value: 1
+- property: AmbientLightBrightness
+  # Sample value: 0
+- property: AmbientLightColorTemperature
+  # Sample value: 0
+- property: AmbientLightStatus
+  # Sample value: 0
+- property: CirculationModeStatus
+  # Sample value: 1
+- property: CleanAirActivePassedHours
+  # Sample value: 0
+- property: CleanAirActiveTotalHours
+  # Sample value: 24
+- property: CleanAirDurationOfCycleInMinutes
+  # Sample value: 10
+- property: CleanAirMotorLevel
+  # Sample value: 1
+- property: CleanAirRunCycleEveryNumberOfMinutes
+  # Sample value: 0
+- property: CleanAirStartTime
+  # Sample value: 0002/11/30T00:00:00
+- property: CleanAirStatus
+  # Sample value: 1
+- property: DeviceStatus
+  # Sample value: 1
+- property: FotaStatus
+  # Sample value: 0
+- property: GreaseFilterCleaningIntervalInHours
+  # Sample value: 30
+- property: GreaseFilterStatus
+  # Sample value: 2
+- property: GreaseFilterUsedHours
+  # Sample value: 68
+- property: HardPairingStatus
+  # Sample value: 0
+- property: LightBrightness
+  # Sample value: 75
+- property: LightColorTemperature
+  # Sample value: 50
+- property: LightStatus
+  # Sample value: 1
+- property: MotorLevel
+  # Sample value: 0
+- property: ProximitySensor
+  # Sample value: 2
+- property: ProximitySensorReactionTime
+  # Sample value: 0
+- property: ProximitySensorSensitivity
+  # Sample value: 0
+- property: ProximitySensorStatus
+  # Sample value: 2
+- property: RFPairingStatus
+  # Sample value: 0
+- property: RecirculationFilter1LifetimeInHours
+  # Sample value: 360
+- property: RecirculationFilter1Status
+  # Sample value: 1
+- property: RecirculationFilter1Type
+  # Sample value: 4
+- property: RecirculationFilter1UsedHours
+  # Sample value: 0
+- property: RecirculationFilter2LifetimeInHours
+  # Sample value: 0
+- property: RecirculationFilter2Status
+  # Sample value: 1
+- property: RecirculationFilter2Type
+  # Sample value: 1
+- property: RecirculationFilter2UsedHours
+  # Sample value: 0
+- property: RemoteControlMonitoringSetCommands
+  # Sample value: 2
+- property: RemoteControlMonitoringSetCommandsActions
+  # Sample value: 0
+- property: SessionPairing
+  # Sample value: 0
+- property: SessionPairingActive
+  # Sample value: 0
+- property: SessionPairingConfirmation
+  # Sample value: 0
+- property: SoftPairing
+  # Sample value: 0
+- property: TimerEndTime
+  # Sample value: 0002/11/30T00:00:00
+- property: TimerPausedTime
+  # Sample value: 0002/11/30T00:00:00
+- property: TimerPausedTotalSeconds
+  # Sample value: 0
+- property: TimerStartTime
+  # Sample value: 0002/11/30T00:00:00
+- property: TimerStatus
+  # Sample value: 1
+- property: daily_energy_kwh
+  hide: true
+  sensor:
+    state_class: total
+    device_class: energy
+    unit: kWh
